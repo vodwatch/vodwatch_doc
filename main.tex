@@ -1,0 +1,139 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[left=3cm,right=3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{afterpage}
+
+\newcommand\emptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+}
+
+\renewcommand*\contentsname{SPIS TREŚCI}
+\renewcommand{\listfigurename}{WYKAZ RYSUNKÓW}
+\renewcommand{\listtablename}{WYKAZ TABEL}
+
+\begin{document}
+\begin{titlepage}
+    \vspace*{-3cm}
+    \begin{figure}[h!]
+        \hspace{-1.5cm}
+        \includegraphics[scale=0.3]{images/pg_logo_kolor.png}
+        \hspace{0.5cm}
+        \includegraphics[scale=0.42]{images/WETIF.png}           
+    \end{figure}
+
+    \textbf{
+        \newline 
+        Imię i nazwisko studenta: Michał Januszkiewicz\\
+        Nr albumu: 180262\\
+        Poziom kształcenia: Studia pierwszego stopnia\\
+        Forma kształcenia: Stacjonarne\\
+        Kierunek studiów: Informatyka\\
+        Profil: Inteligentne systemy interaktywne
+    }
+    
+    \textbf{
+        \newline 
+        Imię i nazwisko studenta: Julia Scheffler\\
+        Nr albumu: 175718\\
+        Poziom kształcenia: Studia pierwszego stopnia\\
+        Forma kształcenia: Stacjonarne\\
+        Kierunek studiów: Informatyka\\
+        Profil: Bazy danych
+    }
+    
+    \textbf{
+        \newline 
+        Imię i nazwisko studenta: Piotr Tomczyk\\
+        Nr albumu: 175816\\
+        Poziom kształcenia: Studia pierwszego stopnia\\
+        Forma kształcenia: Stacjonarne\\
+        Kierunek studiów: Informatyka\\
+        Profil: Bazy danych
+    }
+
+    \Large
+    \textbf{
+        \newline 
+        \newline
+        PROJEKT DYPLOMOWY INŻYNIERSKI
+    }
+
+    \normalsize
+    \textbf{
+        \newline 
+        \newline
+        Tytuł pracy w języku polskim: Wtyczka do przeglądarek umożliwiająca wspólne oglądanie filmów z serwisów VOD
+    }
+
+    \textbf{
+        \newline
+        Tytuł pracy w języku angielskim: Browser extension allowing to watch movies from VOD services collectively
+    }
+
+    \textbf{
+        \newline
+        \newline
+        Opiekun pracy: dr inż. Michał Wróbel
+    }
+    
+\end{titlepage}
+
+\emptypage
+
+\Large
+\textbf{STRESZCZENIE}
+
+\normalsize
+\textbf{
+    \newline
+    Celem projektu...
+}
+\newpage
+\Large
+\textbf{ABSTRACT}
+
+\normalsize
+\textbf{
+    \newline
+    The aim of the thesis...
+}
+\newpage
+\tableofcontents
+
+\newpage
+\section*{WYKAZ WAŻNIEJSZYCH OZNACZEŃ I SKRÓTÓW}\addcontentsline{toc}{section}{WYKAZ WAŻNIEJSZYCH OZNACZEŃ I SKRÓTÓW}
+
+\newpage
+\section{WSTĘP I CEL PRACY}
+
+\subsection{Cel Projektu}
+
+\subsection{Założenia}
+
+\section{ISTNIEJĄCE ROZWIĄZANIE}
+
+\section{OSIĄGNIĘTE REZULTATY}
+
+\section{DOKUMENTACJA PROCESOWA}
+
+\section{DOKUMENTACJA TECHNICZNA}
+
+\section{INSTRUKCJE UŻYTKOWANIA}
+
+\section{PODSUMOWANIE}
+
+\section{WYKAZ LITERATURY}
+
+\newpage
+\listoffigures\addcontentsline{toc}{section}{WYKAZ RYSUNKÓWW}
+
+\newpage
+\listoftables\addcontentsline{toc}{section}{WYKAZ TABEL}
+
+\end{document}
